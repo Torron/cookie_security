@@ -6,7 +6,7 @@
 if ($_POST[flag]==1)
 {
 $value = 'redirect';
-setcookie("xs", $value, time()+360000, '/');
+setcookie("xs", $value, time()+360000, '/'); // Put whatever time you want
 die();
 }
 elseif ($_COOKIE['xs']=='redirect')
